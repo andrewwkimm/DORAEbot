@@ -1,6 +1,6 @@
-"""Tests for modele."""
+"""Tests for DORAEbot."""
 
-from modele import __version__
+from DORAEbot import __version__
 
 
 def test_version() -> None:
