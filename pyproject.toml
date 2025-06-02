@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "DORAEbot"
+name = "doraebot"
 version = "0.1.0"
-description = "DORAEbot"
+description = "doraebot"
 authors = ["Kim, Andrew <andrewkimka@gmail.com>"]
 readme = "README.md"
 
@@ -29,7 +29,7 @@ mypy = ">=0.981"
 
 [tool.coverage.run]
 branch = true
-source = ["DORAEbot"]
+source = ["doraebot"]
 
 [tool.coverage.report]
 show_missing = true
@@ -39,10 +39,10 @@ fail_under = 50
 testpaths=["tests"]
 
 [tool.pyright]
-include = ["DORAEbot"]
+include = ["doraebot"]
 
 [tool.mypy]
-files = ["DORAEbot", "tests"]
+files = ["doraebot", "tests"]
 cache_dir = "${HOME}/.mypy_cache"
 ignore_errors = false
 disallow_untyped_defs = true

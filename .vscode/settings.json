@@ -1,6 +1,6 @@
 {
     "cucumber.features": [
-        "test_acceptance/DORAEbot/features/*.feature"
+        "test_acceptance/doraebot/features/*.feature"
     ],
     "cucumber.glue": [
         "features/**/*.py"
