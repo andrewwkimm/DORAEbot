@@ -42,5 +42,6 @@
 	],
 	// Set project folder as safe directory and changes ownership of it to vscode.
 	"remoteUser": "vscode",
-	"postCreateCommand": "bash ./.devcontainer/setup.sh"
+	"postCreateCommand": "bash ./.devcontainer/setup.sh",
+	"postStartCommand": "ollama serve"
 }
